@@ -1,0 +1,47 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+body{
+	background-color: crimson;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	
+}
+.container{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-title{
+	color:crimson;
+}
+.card{
+	width:70%;
+	border-bottom: 5px solid #510f09a8;
+	border-right: 5px solid #510f09a8; ;
+}
+.item{
+	display: flex;
+	margin-top: 200px;
+	border: 2px;
+	align-items: center;
+	flex-direction: column;
+}
+.label{
+	color:#696969;
+}
+.col{
+	display: inline;
+}
+.row{
+	margin:20px;
+	padding :10px;
+}
+#convert{
+	margin-left: 150px;
+	
+}
